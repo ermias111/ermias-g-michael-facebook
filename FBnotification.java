@@ -33,7 +33,7 @@ public class FBnotification {
         WebElement password = driver.findElement(By.name("pass"));
         WebElement login = driver.findElement(By.id("u_0_2"));
         email.sendKeys("ermigebremichael@gmail.com");
-        password.sendKeys("e412213");
+        password.sendKeys("*******");
         login.click();
         
         WebElement notificationC = driver.findElement(By.id("notificationsCountValue"));
